@@ -4,39 +4,46 @@ background-color: rgba(0, 0, 0, 0.5);
 margin: 0;
 height: 48px;
 }
- .bouton {
+ .Bouton_Event {
   border: none;
    color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   display: block;
-  margin : auto;
-}
-.Bouton{
-  border: none;
-   color: white;
-   padding: 15px 32px;
+   padding: 15px 85px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
 }
-.Bouton_menu{
+.Bouton_Nouveaux_Jeux{
   border: none;
    color: white;
-   padding: 15px 32px;
+   padding: 15px 85px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+.Bouton_Manga{
+  border: none;
+   color: white;
+   padding: 15px 85px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
 
 }
+.Bouton_e-sport{
+  border: none;
+   color: white;
+   padding: 15px 85px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
 body {
   margin :0;
-background-image: url('../Image/Image_lol.jpg');
+background-image: url('Image_lol.jpg');
 background-repeat: repeat; }
 img {
  border-radius: 50%;
