@@ -49,12 +49,20 @@ height: 48px;
 font-size: 40px;
 display: inline;
 }*/
-.Texte{
+span
+{
   font-family:"old london";
-  font-size: 30px;
+  font-size: 100px;
   z-index:3;
   color: black;
-  position:absolute; top:225px; left:250px;
+  position:absolute; top:-35px; left:-65px;
+}
+p{
+  font-family: "Gabriola";
+  font-size: 35px;
+  z-index:3;
+  color: black;
+  position:absolute; top:230px; left:300px;
 }
 img{
   z-index:1;
