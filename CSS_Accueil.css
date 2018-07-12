@@ -1,3 +1,7 @@
+@font-face {
+  font-family:"old london";
+  src:url('OldLondon.ttf');
+}
 header
 {
 background-color: rgba(0, 0, 0, 0.5);
@@ -7,7 +11,7 @@ height: 48px;
  .Bouton_Event {
   border: none;
    color: white;
-   padding: 15px 85px;
+   padding: 15px 100px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -16,7 +20,7 @@ height: 48px;
 .Bouton_Nouveaux_Jeux{
   border: none;
    color: white;
-   padding: 15px 85px;
+   padding: 15px 100px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -25,7 +29,7 @@ height: 48px;
 .Bouton_Manga{
   border: none;
    color: white;
-   padding: 15px 85px;
+   padding: 15px 100px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -35,16 +39,32 @@ height: 48px;
 .Bouton_e-sport{
   border: none;
    color: white;
-   padding: 15px 85px;
+   padding: 15px 100px;
    text-align: center;
    text-decoration: none;
    display: inline-block;
    font-size: 16px;
 }
+/*.enluminure{
+font-size: 40px;
+display: inline;
+}*/
+.Texte{
+  font-family:"old london";
+  font-size: 30px;
+  z-index:3;
+  color: black;
+  position:absolute; top:225px; left:250px;
+}
+img{
+  z-index:1;
+  position: relative;
+}
 body {
   margin :0;
 background-image: url('Image_lol.jpg');
-background-repeat: repeat; }
-img {
- border-radius: 50%;
+height: 100%;
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
 }
